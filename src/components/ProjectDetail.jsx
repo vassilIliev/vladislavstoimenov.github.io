@@ -1,0 +1,163 @@
+import { useParams, Link, useNavigate } from 'react-router-dom'
+import { theatreProjects, cinemaProjects } from '../data/projects'
+import './ProjectDetail.css'
+
+function ProjectDetail() {
+  const { projectId } = useParams()
+  const navigate = useNavigate()
+  const location = window.location.hash
+
+  // Determine type from URL path
+  const type = location.includes('/theatre/') ? 'theatre' : 'cinema'
+  
+  // Get project data based on type
+  const projects = type === 'theatre' ? theatreProjects : cinemaProjects
+  const project = projects[projectId]
+
+  // Handle case where project is not found
+  if (!project) {
+    return (
+      <div className="project-detail">
+        <div className="project-not-found">
+          <h1>Project Not Found</h1>
+          <p>The requested project could not be found.</p>
+          <Link to={`/${type}`} className="back-link">
+            ← Back to {type === 'theatre' ? 'Theatre' : 'Cinema'}
+          </Link>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="project-detail">
+      {/* Navigation */}
+      <div className="project-nav">
+        <button onClick={() => navigate(-1)} className="back-button">
+          ← Back
+        </button>
+        <div className="breadcrumbs">
+          <Link to="/">Home</Link>
+          <span>/</span>
+          <Link to={`/${type}`}>{type === 'theatre' ? 'Theatre' : 'Cinema'}</Link>
+          <span>/</span>
+          <span>{project.title}</span>
+        </div>
+      </div>
+
+      {/* Header */}
+      <header className="project-header">
+        <div className="project-title-section">
+          <h1 className="project-title">{project.title}</h1>
+          <div className="project-meta">
+            <span className="project-year">{project.year}</span>
+            {project.venue && <span className="project-venue">{project.venue}</span>}
+            {project.director && <span className="project-director">Dir. {project.director}</span>}
+            {project.role && <span className="project-role">Role: {project.role}</span>}
+            {project.status && (
+              <span className={`project-status ${project.status}`}>
+                {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
+              </span>
+            )}
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <div className="project-content">
+        {/* Image Gallery */}
+        <section className="image-gallery">
+          <h2>Gallery</h2>
+          <div className="gallery-grid">
+            {project.images?.map((image, index) => (
+              <div key={index} className="gallery-item">
+                <div className="image-placeholder">
+                  <span>Image {index + 1}</span>
+                  <div className="image-info">
+                    <p className="image-caption">{image.caption}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {(!project.images || project.images.length === 0) && (
+              <div className="gallery-item">
+                <div className="image-placeholder">
+                  <span>Images coming soon</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Description */}
+        <section className="project-description">
+          <h2>About</h2>
+          <div className="description-content">
+            {project.fullDescription.split('\n\n').map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+        </section>
+
+        {/* Two Column Layout for Details */}
+        <div className="project-details-grid">
+          {/* Cast */}
+          {project.cast && (
+            <section className="project-cast">
+              <h2>Cast</h2>
+              <ul className="cast-list">
+                {project.cast.map((member, index) => (
+                  <li key={index} className="cast-member">
+                    <span className="role">{member.role}</span>
+                    <span className="actor">{member.actor}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Crew */}
+          {project.crew && (
+            <section className="project-crew">
+              <h2>Crew</h2>
+              <ul className="crew-list">
+                {project.crew.map((member, index) => (
+                  <li key={index} className="crew-member">
+                    <span className="crew-role">{member.role}</span>
+                    <span className="crew-name">{member.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Awards */}
+          {project.awards && project.awards.length > 0 && (
+            <section className="project-awards">
+              <h2>Awards & Recognition</h2>
+              <ul className="awards-list">
+                {project.awards.map((award, index) => (
+                  <li key={index} className="award-item">{award}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Festivals */}
+          {project.festivals && project.festivals.length > 0 && (
+            <section className="project-festivals">
+              <h2>Festivals & Tours</h2>
+              <ul className="festivals-list">
+                {project.festivals.map((festival, index) => (
+                  <li key={index} className="festival-item">{festival}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default ProjectDetail 
