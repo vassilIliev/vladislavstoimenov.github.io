@@ -30,7 +30,7 @@ function Bio() {
           <li><strong>WINNER:</strong> Askeer Award in the category "Rising Star" for the stage directing of the play Art by Yasmina Reza (2023)</li>
           <li><strong>WINNER:</strong> Best Leading Role Award – Shakespeare Like a Street Dog, Sv. Vlas Film Fest, Bulgaria (2022)</li>
           <li><strong>WINNER:</strong> Best Leading Role Award - Shakespeare Like a Street Dog, Golden Rose Festival, Varna, Bulgaria (2022)</li>
-          <li><strong>WINNER:</strong> Nai-Nai-Nai – Best Actor, National academy for theater and film arts, Sofia, Bulgaria (2019)</li>
+          <li><strong>NOMINATION:</strong> Nai-Nai-Nai – Best Actor, National academy for theater and film arts, Sofia, Bulgaria (2019)</li>
         </ul>
       </section>
 
