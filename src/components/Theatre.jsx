@@ -8,20 +8,15 @@ function Theatre() {
       <section className="section">
         <h2>Stage Directing</h2>
         <div className="projects-grid">
-          {/* Featured projects with detail pages */}
-          <Link to="/theatre/art" className="project-item clickable">
-            {theatreProjects.art.images && theatreProjects.art.images[0] && (
-              <div className="project-image">
-                <img src={theatreProjects.art.images[0].src} alt={theatreProjects.art.images[0].alt} />
-              </div>
-            )}
-            <div className="project-content">
-              <div className="project-title">"Art"</div>
-              <div className="project-details">Youth Theater, Sofia, 2023</div>
-              <div className="project-description">{theatreProjects.art.shortDescription}</div>
-              <div className="view-more">View Details →</div>
-            </div>
-          </Link>
+          {/* Projects ordered by year - newest first */}
+          <div className="project-item">
+            <div className="project-title">"All involved"</div>
+            <div className="project-details">Theatro, Sofia (TBA), 2026</div>
+          </div>
+          <div className="project-item">
+            <div className="project-title">"Kazimir & Karoline"</div>
+            <div className="project-details">NATFA, Sofia (in process), 2026</div>
+          </div>
           
           <Link to="/theatre/tallest-tree" className="project-item clickable">
             {theatreProjects['tallest-tree'].images && theatreProjects['tallest-tree'].images[0] && (
@@ -45,7 +40,7 @@ function Theatre() {
             )}
             <div className="project-content">
               <div className="project-title">"The Bulgarian Model"</div>
-              <div className="project-details">Theatre, Sofia, 2022</div>
+              <div className="project-details">Azaryan Theatre, Sofia, 2024</div>
               <div className="project-description">{theatreProjects['bulgarian-model'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
@@ -59,8 +54,22 @@ function Theatre() {
             )}
             <div className="project-content">
               <div className="project-title">"Bull"</div>
-              <div className="project-details">Theatre, Sofia, 2024</div>
+              <div className="project-details">Regional Contemporary Arts Centre "Toplocentrala", Sofia, 2023</div>
               <div className="project-description">{theatreProjects.bull.shortDescription}</div>
+              <div className="view-more">View Details →</div>
+            </div>
+          </Link>
+
+          <Link to="/theatre/art" className="project-item clickable">
+            {theatreProjects.art.images && theatreProjects.art.images[0] && (
+              <div className="project-image">
+                <img src={theatreProjects.art.images[0].src} alt={theatreProjects.art.images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"Art"</div>
+              <div className="project-details">Youth Theatre, Sofia, 2023</div>
+              <div className="project-description">{theatreProjects.art.shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -73,25 +82,12 @@ function Theatre() {
             )}
             <div className="project-content">
               <div className="project-title">"The Festival of Bacchus"</div>
-              <div className="project-details">Theatre, Sofia, 2023</div>
+              <div className="project-details">New Theatre "NDK", Sofia, 2022</div>
               <div className="project-description">{theatreProjects['festival-of-bacchus'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
 
-          {/* Other directing projects */}
-          <div className="project-item">
-            <div className="project-title">"Kazimir & Karoline"</div>
-            <div className="project-details">NATFA, Sofia (in process), 2026</div>
-          </div>
-          <div className="project-item">
-            <div className="project-title">"All involved"</div>
-            <div className="project-details">Theatro, Sofia (TBA), 2026</div>
-          </div>
-          <div className="project-item">
-            <div className="project-title">"Entertainment"</div>
-            <div className="project-details">Balkan Theater Festival, Blagoevgrad, 2024</div>
-          </div>
           <div className="project-item">
             <div className="project-title">"27 Wagons Full of Cotton"</div>
             <div className="project-details">NATFA, Sofia, 2021</div>
@@ -106,7 +102,12 @@ function Theatre() {
       <section className="section">
         <h2>Acting</h2>
         <div className="projects-grid">
-          {/* Featured project with detail page */}
+          {/* Projects ordered by year - newest first */}
+          <div className="project-item">
+            <div className="project-title">"Charlie at the Sea"</div>
+            <div className="project-details">Doctor & Mailman, Youth Theater, 2024</div>
+          </div>
+
           <Link to="/theatre/dangerous-liaisons" className="project-item clickable">
             {theatreProjects['dangerous-liaisons'].images && theatreProjects['dangerous-liaisons'].images[0] && (
               <div className="project-image">
@@ -121,11 +122,6 @@ function Theatre() {
             </div>
           </Link>
 
-          {/* Other acting projects */}
-          <div className="project-item">
-            <div className="project-title">"Charlie at the Sea"</div>
-            <div className="project-details">Doctor & Mailman, Youth Theater, 2024</div>
-          </div>
           <div className="project-item">
             <div className="project-title">"Ivanov"</div>
             <div className="project-details">Lvov, Youth Theater, 2023</div>

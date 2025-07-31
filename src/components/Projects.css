@@ -1,7 +1,8 @@
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: minmax(120px, auto);
+  gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
@@ -20,6 +21,19 @@
 .project-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-item.clickable {
+  cursor: pointer;
+  grid-row: span 2; /* Featured projects take more space */
+}
+
+/* Compact cards for projects without images */
+.project-item:not(.clickable) {
+  min-height: 120px;
+  padding: 1.25rem;
+  justify-content: center;
+  grid-row: span 1;
 }
 
 .project-item.clickable {
@@ -50,19 +64,36 @@
   flex-direction: column;
 }
 
+/* Compact content for simple cards */
+.project-item:not(.clickable) .project-content {
+  padding: 0;
+}
+
 .project-title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #2c2c2c;
   margin-bottom: 0.5rem;
   line-height: 1.3;
 }
 
+/* Larger title for featured projects */
+.project-item.clickable .project-title {
+  font-size: 1.3rem;
+}
+
 .project-details {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #666;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   font-style: italic;
+  line-height: 1.4;
+}
+
+/* More margin for featured projects */
+.project-item.clickable .project-details {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 .project-description {
@@ -70,6 +101,7 @@
   line-height: 1.6;
   margin-bottom: 1.5rem;
   flex-grow: 1;
+  font-size: 0.95rem;
 }
 
 .view-more {
@@ -86,15 +118,36 @@
 
 @media (max-width: 768px) {
   .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.25rem;
+    grid-auto-rows: minmax(100px, auto);
   }
   
   .project-image {
-    height: 180px;
+    height: 160px;
   }
   
   .project-content {
     padding: 1.25rem;
+  }
+
+  .project-item:not(.clickable) {
+    min-height: 100px;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-item.clickable {
+    grid-row: span 1;
+  }
+
+  .project-image {
+    height: 140px;
   }
 } 

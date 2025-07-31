@@ -12,10 +12,16 @@ function Contact() {
               <strong>Email:</strong> <a href="mailto:vladislavstoimenov29@gmail.com">vladislavstoimenov29@gmail.com</a>
             </p>
             <p>
-              <strong>Phone:</strong> <a href="tel:+359123456789">+359 123 456 789</a>
+              <strong>Phone:</strong> <a href="tel:+359899948177">+359 899 948 177</a>
             </p>
             <p>
-              <strong>Instagram:</strong> <a href="https://instagram.com/vladislavstoimenov" target="_blank" rel="noopener noreferrer">@vladislavstoimenov</a>
+              <strong>Location:</strong> Sofia, Bulgaria
+            </p>
+            <p>
+              <strong>Instagram:</strong> <a href="https://instagram.com/vldslvstmnv" target="_blank" rel="noopener noreferrer">@vldslvstmnv</a>
+            </p>
+            <p>
+              <strong>Facebook:</strong> <a href="https://facebook.com/vladislav.stoimenov" target="_blank" rel="noopener noreferrer">Vladislav Stoimenov</a>
             </p>
           </div>
         </div>

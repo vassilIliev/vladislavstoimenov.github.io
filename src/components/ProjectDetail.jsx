@@ -81,17 +81,32 @@ function ProjectDetail() {
       <header className="project-header">
         <div className="project-title-section">
           <h1 className="project-title">{project.title}</h1>
+          {project.author && <div className="project-author">by {project.author}</div>}
+          {project.translation && <div className="project-translation">Translation: {project.translation}</div>}
+          {project.project && <div className="project-context">{project.project}</div>}
           <div className="project-meta">
             <span className="project-year">{project.year}</span>
             {project.venue && <span className="project-venue">{project.venue}</span>}
             {project.director && <span className="project-director">Dir. {project.director}</span>}
             {project.role && <span className="project-role">Role: {project.role}</span>}
+            {project.runtime && <span className="project-runtime">{project.runtime}</span>}
+            {project.country && <span className="project-country">{project.country}</span>}
+            {project.genre && <span className="project-genre">{project.genre}</span>}
+            {project.language && <span className="project-language">{project.language}</span>}
+            {project.studio && <span className="project-studio">{project.studio}</span>}
             {project.status && (
               <span className={`project-status ${project.status}`}>
                 {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
               </span>
             )}
           </div>
+          {project.imdb && (
+            <div className="project-links">
+              <a href={project.imdb} target="_blank" rel="noopener noreferrer" className="imdb-link">
+                View on IMDb
+              </a>
+            </div>
+          )}
         </div>
       </header>
 
@@ -185,6 +200,18 @@ function ProjectDetail() {
               <ul className="festivals-list">
                 {project.festivals.map((festival, index) => (
                   <li key={index} className="festival-item">{festival}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* Support */}
+          {project.support && project.support.length > 0 && (
+            <section className="project-support">
+              <h2>Support & Funding</h2>
+              <ul className="support-list">
+                {project.support.map((supporter, index) => (
+                  <li key={index} className="support-item">{supporter}</li>
                 ))}
               </ul>
             </section>
