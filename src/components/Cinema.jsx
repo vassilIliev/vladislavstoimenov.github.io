@@ -10,17 +10,31 @@ function Cinema() {
         <div className="projects-grid">
           {/* Featured projects with detail pages */}
           <Link to="/cinema/shakespeare-street-dog" className="project-item clickable">
-            <div className="project-title">"Shakespeare like a Street Dog"</div>
-            <div className="project-details">Danko, Dir. Valeri Yordanov, 2023</div>
-            <div className="project-description">{cinemaProjects['shakespeare-street-dog'].shortDescription}</div>
-            <div className="view-more">View Details →</div>
+            {cinemaProjects['shakespeare-street-dog'].images && cinemaProjects['shakespeare-street-dog'].images[0] && (
+              <div className="project-image">
+                <img src={cinemaProjects['shakespeare-street-dog'].images[0].src} alt={cinemaProjects['shakespeare-street-dog'].images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"Shakespeare like a Street Dog"</div>
+              <div className="project-details">Danko, Dir. Valeri Yordanov, 2023</div>
+              <div className="project-description">{cinemaProjects['shakespeare-street-dog'].shortDescription}</div>
+              <div className="view-more">View Details →</div>
+            </div>
           </Link>
           
           <Link to="/cinema/resonance-principle" className="project-item clickable">
-            <div className="project-title">"The Resonance Principle" (short)</div>
-            <div className="project-details">Andrey, Dir. Yassen Genadiev, 2021</div>
-            <div className="project-description">{cinemaProjects['resonance-principle'].shortDescription}</div>
-            <div className="view-more">View Details →</div>
+            {cinemaProjects['resonance-principle'].images && cinemaProjects['resonance-principle'].images[0] && (
+              <div className="project-image">
+                <img src={cinemaProjects['resonance-principle'].images[0].src} alt={cinemaProjects['resonance-principle'].images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"The Resonance Principle" (short)</div>
+              <div className="project-details">Andrey, Dir. Yassen Genadiev, 2021</div>
+              <div className="project-description">{cinemaProjects['resonance-principle'].shortDescription}</div>
+              <div className="view-more">View Details →</div>
+            </div>
           </Link>
 
           {/* Other projects */}

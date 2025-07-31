@@ -32,10 +32,8 @@ This directing debut earned critical acclaim and multiple awards, including an I
       'Plovdiv Festival, 2024'
     ],
     images: [
-      { src: '/images/art/art-main.jpg', alt: 'Main production photo', caption: 'The three friends debate the value of art' },
-      { src: '/images/art/art-scene1.jpg', alt: 'Scene 1', caption: 'Opening scene - Serge reveals his purchase' },
-      { src: '/images/art/art-scene2.jpg', alt: 'Scene 2', caption: 'The heated argument unfolds' },
-      { src: '/images/art/art-backstage.jpg', alt: 'Backstage', caption: 'Behind the scenes preparation' }
+      { src: '/images/art/Art_Damianova_13_web_logo.jpg', alt: 'Main production photo', caption: 'The three friends debate the value of art' },
+      { src: '/images/art/Art_Damianova_5_web_web_logo.jpg', alt: 'Alternative scene', caption: 'Powerful moments from the production' }
     ]
   },
   'dangerous-liaisons': {
@@ -97,8 +95,87 @@ Set to premiere in 2025, this ambitious project represents a new direction in co
       'Shkola Festival, Pleven, 2025 (scheduled)'
     ],
     images: [
-      { src: '/images/tallest-tree/concept1.jpg', alt: 'Concept art', caption: 'Initial concept design' },
-      { src: '/images/tallest-tree/rehearsal.jpg', alt: 'Rehearsal', caption: 'Early rehearsal process' }
+      { src: '/images/tallest-tree/DSC08290-2.jpg', alt: 'Rehearsal photo', caption: 'Early rehearsal process' },
+      { src: '/images/tallest-tree/DSC08495.jpg', alt: 'Production concept', caption: 'Development and concept work' }
+    ]
+  },
+  'festival-of-bacchus': {
+    id: 'festival-of-bacchus',
+    title: 'The Festival of Bacchus',
+    type: 'acting',
+    venue: 'Theatre, Sofia',
+    year: '2023',
+    status: 'completed',
+    shortDescription: 'A vibrant celebration of wine, life, and ancient traditions.',
+    fullDescription: `"The Festival of Bacchus" is a dynamic theatrical production that brings ancient Dionysian celebrations to life through contemporary staging and powerful performances. The production explores themes of liberation, ecstasy, and the dual nature of human desires through the lens of classical mythology.
+
+This production showcases the raw energy and primal emotions associated with the ancient Greek god of wine and festivity, creating an immersive experience that challenges audiences to confront their own relationship with excess and celebration.`,
+    cast: [
+      { role: 'Bacchus', actor: 'Lead Actor' },
+      { role: 'Supporting Role', actor: 'Vladislav Stoimenov' },
+      { role: 'Chorus', actor: 'Ensemble Cast' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Director Name' },
+      { role: 'Choreographer', name: 'Choreographer Name' },
+      { role: 'Music Director', name: 'Music Director Name' }
+    ],
+    images: [
+      { src: '/images/bacchus/TSV_7626 (1).jpg', alt: 'Festival scene', caption: 'The vibrant celebration of Bacchus' },
+      { src: '/images/bacchus/TSV_7679 (1).jpg', alt: 'Performance moment', caption: 'Dynamic performance in action' }
+    ]
+  },
+  'bulgarian-model': {
+    id: 'bulgarian-model',
+    title: 'The Bulgarian Model',
+    type: 'acting',
+    venue: 'Theatre, Sofia',
+    year: '2022',
+    status: 'completed',
+    shortDescription: 'A contemporary drama exploring Bulgarian identity and social transformation.',
+    fullDescription: `"The Bulgarian Model" is a thought-provoking contemporary drama that examines the complexities of modern Bulgarian society. The production delves into themes of national identity, social change, and the tension between tradition and progress in post-communist Bulgaria.
+
+Through nuanced character development and sharp social commentary, the play presents a multifaceted view of contemporary Bulgarian life, exploring how individuals navigate the challenges of rapid societal transformation while maintaining their cultural roots.`,
+    cast: [
+      { role: 'Lead Character', actor: 'Vladislav Stoimenov' },
+      { role: 'Supporting Character 1', actor: 'Actor Name 1' },
+      { role: 'Supporting Character 2', actor: 'Actor Name 2' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Director Name' },
+      { role: 'Playwright', name: 'Playwright Name' },
+      { role: 'Set Designer', name: 'Designer Name' }
+    ],
+    images: [
+      { src: '/images/bulgarian-model/DSC_2986.jpg', alt: 'Character study', caption: 'Exploring Bulgarian contemporary identity' },
+      { src: '/images/bulgarian-model/DSC_3016.jpg', alt: 'Dramatic moment', caption: 'Intense dramatic performance' },
+      { src: '/images/bulgarian-model/DSC_3064.jpg', alt: 'Scene work', caption: 'Character interaction and development' }
+    ]
+  },
+  'bull': {
+    id: 'bull',
+    title: 'Bull',
+    type: 'acting',
+    venue: 'Theatre, Sofia',
+    year: '2024',
+    status: 'completed',
+    shortDescription: 'A powerful drama exploring masculinity, power, and vulnerability.',
+    fullDescription: `"Bull" is an intense psychological drama that examines the complex dynamics of masculinity, power structures, and human vulnerability. The production creates a claustrophobic atmosphere where characters are forced to confront their deepest fears and desires.
+
+This challenging work explores themes of dominance, submission, and the masks we wear in professional and personal relationships. The production is known for its raw emotional intensity and unflinching examination of human nature under pressure.`,
+    cast: [
+      { role: 'Lead Role', actor: 'Vladislav Stoimenov' },
+      { role: 'Supporting Role 1', actor: 'Actor Name 1' },
+      { role: 'Supporting Role 2', actor: 'Actor Name 2' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Director Name' },
+      { role: 'Set Designer', name: 'Designer Name' },
+      { role: 'Lighting Designer', name: 'Designer Name' }
+    ],
+    images: [
+      { src: '/images/bull/VEL_4403.jpg', alt: 'Intense scene', caption: 'Powerful dramatic moment' },
+      { src: '/images/bull/VEL_5133.jpg', alt: 'Character portrait', caption: 'Character study and development' }
     ]
   }
 }
@@ -133,10 +210,8 @@ The film explores themes of loyalty, betrayal, and redemption against the backdr
       'Golden Rose Festival, 2022'
     ],
     images: [
-      { src: '/images/shakespeare/shakespeare-main.jpg', alt: 'Main film still', caption: 'Danko in a pivotal scene' },
-      { src: '/images/shakespeare/shakespeare-street.jpg', alt: 'Street scene', caption: 'Urban landscape of the film' },
-      { src: '/images/shakespeare/shakespeare-close.jpg', alt: 'Close-up', caption: 'Emotional intensity of Danko' },
-      { src: '/images/shakespeare/shakespeare-behind.jpg', alt: 'Behind the scenes', caption: 'On set with director Valeri Yordanov' }
+      { src: '/images/shakespeare/DSC_5001.jpg', alt: 'Main film still', caption: 'Danko in a pivotal scene' },
+      { src: '/images/shakespeare/DSC_9092.jpg', alt: 'Character portrait', caption: 'Emotional intensity of Danko' }
     ]
   },
   'resonance-principle': {
@@ -160,8 +235,7 @@ The film employs innovative cinematographic techniques to visualize internal psy
       { role: 'Editor', name: 'Editor Name' }
     ],
     images: [
-      { src: '/images/resonance/resonance-main.jpg', alt: 'Main film still', caption: 'Andrey in contemplation' },
-      { src: '/images/resonance/resonance-abstract.jpg', alt: 'Abstract scene', caption: 'Visualizing memory fragments' }
+      { src: '/images/resonance/474856924_1179471713740433_2716469550513824598_n.jpg', alt: 'Main film still', caption: 'Andrey in contemplation' }
     ]
   }
 } 

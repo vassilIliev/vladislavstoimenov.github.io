@@ -12,15 +12,13 @@ function Bio() {
               His work spans contemporary and classical theatre, with notable recognition in both 
               national and international festivals.
             </p>
-            <p className="contact-info">
-              <strong>Email:</strong> <a href="mailto:vladislavstoimenov29@gmail.com">vladislavstoimenov29@gmail.com</a>
-            </p>
           </div>
           <div className="bio-photo">
-            {/* Photo placeholder - will be added when images are provided */}
-            <div className="photo-placeholder">
-              <span>Photo will be added</span>
-            </div>
+            <img 
+              src="/images/profile-photo.jpg" 
+              alt="Vladislav Stoimenov" 
+              className="profile-image"
+            />
           </div>
         </div>
       </section>

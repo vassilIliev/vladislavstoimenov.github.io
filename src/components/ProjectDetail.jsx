@@ -1,11 +1,17 @@
 import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 import { theatreProjects, cinemaProjects } from '../data/projects'
+import ImageModal from './ImageModal'
 import './ProjectDetail.css'
 
 function ProjectDetail() {
   const { projectId } = useParams()
   const navigate = useNavigate()
   const location = window.location.hash
+  
+  // Modal state
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   // Determine type from URL path
   const type = location.includes('/theatre/') ? 'theatre' : 'cinema'
@@ -27,6 +33,32 @@ function ProjectDetail() {
         </div>
       </div>
     )
+  }
+
+  // Modal handlers
+  const openModal = (index) => {
+    setCurrentImageIndex(index)
+    setIsModalOpen(true)
+  }
+
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
+
+  const nextImage = () => {
+    if (project.images && project.images.length > 1) {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === project.images.length - 1 ? 0 : prevIndex + 1
+      )
+    }
+  }
+
+  const prevImage = () => {
+    if (project.images && project.images.length > 1) {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === 0 ? project.images.length - 1 : prevIndex - 1
+      )
+    }
   }
 
   return (
@@ -71,11 +103,14 @@ function ProjectDetail() {
           <div className="gallery-grid">
             {project.images?.map((image, index) => (
               <div key={index} className="gallery-item">
-                <div className="image-placeholder">
-                  <span>Image {index + 1}</span>
-                  <div className="image-info">
-                    <p className="image-caption">{image.caption}</p>
-                  </div>
+                <img 
+                  src={image.src} 
+                  alt={image.alt} 
+                  className="gallery-image clickable-image"
+                  onClick={() => openModal(index)}
+                />
+                <div className="image-info">
+                  <p className="image-caption">{image.caption}</p>
                 </div>
               </div>
             ))}
@@ -156,6 +191,16 @@ function ProjectDetail() {
           )}
         </div>
       </div>
+
+      {/* Image Modal */}
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        images={project.images}
+        currentIndex={currentImageIndex}
+        onNext={nextImage}
+        onPrev={prevImage}
+      />
     </div>
   )
 }
