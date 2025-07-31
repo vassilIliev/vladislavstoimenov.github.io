@@ -25,12 +25,12 @@ function Bio() {
       <section className="section">
         <h2>Awards & Nominations</h2>
         <ul>
-          <li>Ministry of Culture Award for outstanding artistic achievement (2024)</li>
-          <li>IKAR Award Nomination – Best Directing Debut (Art by Yasmina Reza, 2024)</li>
-          <li>Askeer Award in the category "Rising Star" for the stage directing of the play Art by Yasmina Reza (2023)</li>
-          <li>Best Leading Role Award – Shakespeare Like a Street Dog, Sv. Vlas Film Fest, Bulgaria (2022)</li>
-          <li>Best Leading Role Award - Shakespeare Like a Street Dog, Golden Rose Festival, Varna, Bulgaria (2022)</li>
-          <li>Nai-Nai-Nai Nomination – Best Actor, National academy for theater and film arts, Sofia, Bulgaria (2019)</li>
+          <li><strong>WINNER:</strong> Ministry of Culture Award for outstanding artistic achievement (2024)</li>
+          <li><strong>NOMINATION:</strong> IKAR Award – Best Directing Debut (Art by Yasmina Reza, 2024)</li>
+          <li><strong>WINNER:</strong> Askeer Award in the category "Rising Star" for the stage directing of the play Art by Yasmina Reza (2023)</li>
+          <li><strong>WINNER:</strong> Best Leading Role Award – Shakespeare Like a Street Dog, Sv. Vlas Film Fest, Bulgaria (2022)</li>
+          <li><strong>WINNER:</strong> Best Leading Role Award - Shakespeare Like a Street Dog, Golden Rose Festival, Varna, Bulgaria (2022)</li>
+          <li><strong>WINNER:</strong> Nai-Nai-Nai – Best Actor, National academy for theater and film arts, Sofia, Bulgaria (2019)</li>
         </ul>
       </section>
 
