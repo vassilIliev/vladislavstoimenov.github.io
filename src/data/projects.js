@@ -55,11 +55,6 @@ The production was praised for its sophisticated staging and powerful performanc
     festivals: [
       'Apollonia Festival, Sozopol, 2023',
       'Theater at Crossroad, Plovdiv, 2024'
-    ],
-    images: [
-      { src: '/images/dangerous-liaisons/dl-main.jpg', alt: 'Main production photo', caption: 'The aristocratic salon setting' },
-      { src: '/images/dangerous-liaisons/dl-danceny.jpg', alt: 'Danceny scene', caption: 'Chevalier Danceny in performance' },
-      { src: '/images/dangerous-liaisons/dl-ensemble.jpg', alt: 'Ensemble scene', caption: 'The full cast in the ballroom scene' }
     ]
   },
   'tallest-tree': {

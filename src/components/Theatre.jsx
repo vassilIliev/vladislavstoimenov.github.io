@@ -108,19 +108,10 @@ function Theatre() {
             <div className="project-details">Doctor & Mailman, Youth Theater, 2024</div>
           </div>
 
-          <Link to="/theatre/dangerous-liaisons" className="project-item clickable">
-            {theatreProjects['dangerous-liaisons'].images && theatreProjects['dangerous-liaisons'].images[0] && (
-              <div className="project-image">
-                <img src={theatreProjects['dangerous-liaisons'].images[0].src} alt={theatreProjects['dangerous-liaisons'].images[0].alt} />
-              </div>
-            )}
-            <div className="project-content">
-              <div className="project-title">"Dangerous Liaisons"</div>
-              <div className="project-details">Chevalier Danceny, Youth Theater, 2023</div>
-              <div className="project-description">{theatreProjects['dangerous-liaisons'].shortDescription}</div>
-              <div className="view-more">View Details →</div>
-            </div>
-          </Link>
+          <div className="project-item">
+            <div className="project-title">"Dangerous Liaisons"</div>
+            <div className="project-details">Chevalier Danceny, Youth Theater, 2023</div>
+          </div>
 
           <div className="project-item">
             <div className="project-title">"Ivanov"</div>
