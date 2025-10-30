@@ -85,8 +85,10 @@ Set to premiere in 2025, this ambitious project represents a new direction in co
       'Shkola Festival, Pleven, 2025 (scheduled)'
     ],
     images: [
-      { src: '/images/tallest-tree/DSC08290-2.jpg', alt: 'Rehearsal photo', caption: 'Early rehearsal process' },
-      { src: '/images/tallest-tree/DSC08495.jpg', alt: 'Production concept', caption: 'Development and concept work' }
+      { src: '/images/tallest-tree/IMG_0500.jpeg', alt: 'Production stills', caption: 'Behind the scenes moments' },
+      { src: '/images/tallest-tree/IMG_0503.jpeg', alt: 'Rehearsal process', caption: 'Creative development work' },
+      { src: '/images/tallest-tree/IMG_0504.jpeg', alt: 'Production photos', caption: 'Artistic collaboration in progress' },
+      { src: '/images/tallest-tree/IMG_0506.jpeg', alt: 'Creative process', caption: 'Exploring theatrical concepts' }
     ]
   },
   'festival-of-bacchus': {
