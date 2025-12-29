@@ -179,6 +179,62 @@ This challenging work explores themes of dominance, submission, and the masks we
       { src: '/images/bull/VEL_4403.jpg', alt: 'Intense scene', caption: 'Powerful dramatic moment' },
       { src: '/images/bull/VEL_5133.jpg', alt: 'Character portrait', caption: 'Character study and development' }
     ]
+  },
+  'kazimir-karoline': {
+    id: 'kazimir-karoline',
+    title: 'Kazimir & Karoline',
+    titleBg: 'Казимир & Каролине',
+    author: 'Ödön von Horváth',
+    type: 'directing',
+    venue: 'NATFA, Sofia',
+    year: '2025',
+    status: 'completed',
+    translation: 'Vladko Murdarov',
+    shortDescription: 'A poignant exploration of love and social instability set against the backdrop of Oktoberfest.',
+    fullDescription: `"Kazimir & Karoline" is a play by the Austrian playwright Ödön von Horváth – one of the most significant German-language authors who left a profound mark on the development of modern dramaturgy and theatrical heritage. The action unfolds around the festive Oktoberfest in Munich – a place of entertainment and mass pleasures that contrasts with the inner emptiness and loneliness of the characters.
+
+The play examines the transformations of love under the influence of socio-economic cataclysms, crises in human relationships, and loss of identity. Its motto – "and love never ends" – sets the direction for thinking about social bonds as a sad-joyful carnival of life, an endless whirlpool of instability, failures, and new hopes.
+
+Horváth shows a world where social insecurity shakes the foundations of personal worlds and activates human fears of losing height – fears of falling off the social ladder to find oneself in zones of loneliness, coldness, and despair. They determine human choice and actions and turn relationships into a fragile, illusory, unstable, or pragmatically instrumentalized reality. While Oktoberfest glitters with lights and noisy ecstasy, the inner worlds of the characters remain fragmented and anxious. Thus, the play transforms the festival into a metaphor for a society intoxicated by visible prosperity but corroded by inequalities, fears, and lack of human closeness.`,
+    cast: [
+      { role: 'Ensemble', actor: 'Simona Yulianova' },
+      { role: 'Ensemble', actor: 'Elena Kostadinova' },
+      { role: 'Ensemble', actor: 'Krasimir Hristov' },
+      { role: 'Ensemble', actor: 'Georgi Firkov' },
+      { role: 'Ensemble', actor: 'Lachezar Natlev' },
+      { role: 'Ensemble', actor: 'Petar Varelov' },
+      { role: 'Ensemble', actor: 'Georgiy Ivaniadze' },
+      { role: 'Ensemble', actor: 'Martin Dochev' },
+      { role: 'Ensemble', actor: 'Emilia Paneva' },
+      { role: 'Ensemble', actor: 'Rada Hristova' },
+      { role: 'Ensemble', actor: 'Martin Leviev' },
+      { role: 'Ensemble', actor: 'Hristo Genov' },
+      { role: 'Ensemble', actor: 'Karina Andonova' },
+      { role: 'Ensemble', actor: 'Izabela Georgieva' },
+      { role: 'Ensemble', actor: 'Samuela Shamlieva' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Vladislav Stoimenov' },
+      { role: 'Set Design & Costumes', name: 'Boris Dalchev' },
+      { role: 'Assistant Set Designer', name: 'Raya Lyubenova' },
+      { role: 'Choreography', name: 'Vesela Hadzhinikolova & Deyan Georgiev' },
+      { role: 'Sound & Music', name: 'Milen Apostolov' },
+      { role: 'Speech Action', name: 'Assoc. Prof. Todor Dimitrov-Mechkarski, Chief Asst. Prof. Ralitsa Kovacheva-Bezhan, Asst. Daria Simeonova' },
+      { role: 'Photographer', name: 'Veneta Paunova' },
+      { role: 'Poster Design', name: 'Georgi Panchev' }
+    ],
+    images: [
+      { src: '/images/kazimir-karoline/IMG_0797.jpeg', alt: 'Production photo', caption: 'Scenes from Oktoberfest' },
+      { src: '/images/kazimir-karoline/IMG_0798.jpeg', alt: 'Ensemble work', caption: 'The ensemble in action' },
+      { src: '/images/kazimir-karoline/IMG_0801.jpeg', alt: 'Stage moment', caption: 'Exploring love and loss' },
+      { src: '/images/kazimir-karoline/IMG_0802.jpeg', alt: 'Performance scene', caption: 'Social dynamics on display' },
+      { src: '/images/kazimir-karoline/IMG_0803.jpeg', alt: 'Dramatic moment', caption: 'Emotional intensity' },
+      { src: '/images/kazimir-karoline/att.0gfwk8jWQb3uvCFDPmFWnXBXxEUgELV5n_-QDiOV5WU.jpeg', alt: 'Production still', caption: 'The carnival atmosphere' },
+      { src: '/images/kazimir-karoline/att.6kIco91gLRRuxLT8tSEBAuq-gvCaJb_pEilMU3ptiWg.jpeg', alt: 'Character interaction', caption: 'Human connections and disconnections' },
+      { src: '/images/kazimir-karoline/att.Nm94HlJhe2hfLGzoITWbMzo75on1IEf1LuzcPILO9yM.jpeg', alt: 'Stage design', caption: 'Festive atmosphere contrasts inner turmoil' },
+      { src: '/images/kazimir-karoline/att.tL1hVZdDfHyxhsypFIkbCU9X3oPknFhH5PgUvToBrNY.jpeg', alt: 'Ensemble scene', caption: 'The whirlpool of life' },
+      { src: '/images/kazimir-karoline/att.UCazFcjAEd2zoD6c6cbFqWS_2db5QpZqlYV9fcimxUo.jpeg', alt: 'Performance moment', caption: 'Navigating social instability' }
+    ]
   }
 }
 

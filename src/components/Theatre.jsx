@@ -13,10 +13,19 @@ function Theatre() {
             <div className="project-title">"All involved"</div>
             <div className="project-details">Theatro, Sofia (TBA), 2026</div>
           </div>
-          <div className="project-item">
-            <div className="project-title">"Kazimir & Karoline"</div>
-            <div className="project-details">NATFA, Sofia (in process), 2026</div>
-          </div>
+          <Link to="/theatre/kazimir-karoline" className="project-item clickable">
+            {theatreProjects['kazimir-karoline'].images && theatreProjects['kazimir-karoline'].images[0] && (
+              <div className="project-image">
+                <img src={theatreProjects['kazimir-karoline'].images[0].src} alt={theatreProjects['kazimir-karoline'].images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"Kazimir & Karoline"</div>
+              <div className="project-details">NATFA, Sofia, 2025</div>
+              <div className="project-description">{theatreProjects['kazimir-karoline'].shortDescription}</div>
+              <div className="view-more">View Details →</div>
+            </div>
+          </Link>
           
           <Link to="/theatre/tallest-tree" className="project-item clickable">
             {theatreProjects['tallest-tree'].images && theatreProjects['tallest-tree'].images[0] && (
