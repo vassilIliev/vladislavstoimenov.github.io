@@ -23,7 +23,6 @@ function Cinema() {
             <div className="project-content">
               <div className="project-title">"The Resonance Principle" (short)</div>
               <div className="project-details">Andrey, Dir. Yassen Genadiev, 2023</div>
-              <div className="project-description">{cinemaProjects['resonance-principle'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -37,7 +36,6 @@ function Cinema() {
             <div className="project-content">
               <div className="project-title">"Shakespeare Like a Street Dog"</div>
               <div className="project-details">Danko (a.k.a. Sheky), Dir. Valeri Yordanov, 2022</div>
-              <div className="project-description">{cinemaProjects['shakespeare-street-dog'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>

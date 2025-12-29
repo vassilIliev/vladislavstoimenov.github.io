@@ -37,7 +37,8 @@ This directing debut earned critical acclaim and multiple awards, including an I
     ],
     images: [
       { src: '/images/art/Art_Damianova_13_web_logo.jpg', alt: 'Main production photo', caption: 'The three friends debate the value of art' },
-      { src: '/images/art/Art_Damianova_5_web_web_logo.jpg', alt: 'Alternative scene', caption: 'Powerful moments from the production' }
+      { src: '/images/art/Art_Damianova_5_web_web_logo.jpg', alt: 'Alternative scene', caption: 'Powerful moments from the production' },
+      { src: '/images/art/Art_Damianova_7_web_web_logo.jpg', alt: 'Scene from the play', caption: 'Exploring friendship and artistic perception' }
     ]
   },
   'dangerous-liaisons': {
@@ -117,7 +118,8 @@ This production showcases the raw energy and primal emotions associated with the
     ],
     images: [
       { src: '/images/bacchus/TSV_7626 (1).jpg', alt: 'Festival scene', caption: 'The vibrant celebration of Bacchus' },
-      { src: '/images/bacchus/TSV_7679 (1).jpg', alt: 'Performance moment', caption: 'Dynamic performance in action' }
+      { src: '/images/bacchus/TSV_7679 (1).jpg', alt: 'Performance moment', caption: 'Dynamic performance in action' },
+      { src: '/images/bacchus/TSV_7263 (1).jpg', alt: 'Dionysian celebration', caption: 'The ecstasy of the festival' }
     ]
   },
   'bulgarian-model': {
@@ -177,7 +179,8 @@ This challenging work explores themes of dominance, submission, and the masks we
     ],
     images: [
       { src: '/images/bull/VEL_4403.jpg', alt: 'Intense scene', caption: 'Powerful dramatic moment' },
-      { src: '/images/bull/VEL_5133.jpg', alt: 'Character portrait', caption: 'Character study and development' }
+      { src: '/images/bull/VEL_5133.jpg', alt: 'Character portrait', caption: 'Character study and development' },
+      { src: '/images/bull/VEL_4890.jpg', alt: 'Confrontation scene', caption: 'Raw emotional intensity' }
     ]
   },
   'kazimir-karoline': {

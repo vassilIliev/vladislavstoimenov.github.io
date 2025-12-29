@@ -124,9 +124,6 @@ function ProjectDetail() {
                   className="gallery-image clickable-image"
                   onClick={() => openModal(index)}
                 />
-                <div className="image-info">
-                  <p className="image-caption">{image.caption}</p>
-                </div>
               </div>
             ))}
             {(!project.images || project.images.length === 0) && (

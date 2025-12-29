@@ -37,6 +37,7 @@ function Bio() {
       <section className="section">
         <h2>Stage Directing</h2>
         <ul>
+          <li><strong>Kazimir & Karoline</strong> by Ödön von Horváth — NATFA, Sofia (2025)</li>
           <li><strong>The Tallest Tree on Earth</strong> by Ivan Vyrypaev — Derida Stage, Sofia (2025)</li>
           <li><strong>The Bulgarian Model</strong> (based on texts by Stanislav Stratiev) — Azaryan Theatre, Sofia (2024)<br />
               <em>(as part of the project "Decay and Resistance" by the Union of Artists in Bulgaria)</em></li>
@@ -60,39 +61,21 @@ function Bio() {
 
       <section className="section">
         <h2>Acting</h2>
-        
-        <h3 className="year-heading">2024</h3>
-        <ul className="year-list">
-          <li><strong>The Doctor and the Mailman</strong> in <em>Charlie at the Sea</em> by Slawomir Mrożek — Youth Theatre, Sofia</li>
-        </ul>
-
-        <h3 className="year-heading">2023</h3>
-        <ul className="year-list">
-          <li><strong>Chevalier Danceny</strong> in <em>Dangerous Liaisons</em> by Choderlos de Laclos — Youth Theatre, Sofia</li>
-          <li><strong>Evgeny Konstantinovich Lvov</strong> in <em>Ivanov</em> by Anton Chekhov — Youth Theatre, Sofia</li>
-          <li><strong>Stefan</strong> in <em>Little Bastards</em> by Bernhard Georg — Youth Theatre, Sofia</li>
-          <li><strong>Actor</strong> in <em>#anti-sorrow</em> by Stefan Ivanov — Sfumato Theatre Laboratory, Sofia</li>
-          <li><strong>Actor</strong> in <em>The Night Knights</em> by Yana Borissova — Sofia Live Club, Sofia</li>
-          <li><strong>Count Paris</strong> in <em>Romeo and Juliet</em> by William Shakespeare — Youth Theatre, Sofia</li>
-          <li><strong>Andrea Cavalcanti</strong> in <em>The Count of Monte Cristo</em> by Alexandre Dumas (son) — Youth Theatre, Sofia</li>
-        </ul>
-
-        <h3 className="year-heading">2020</h3>
-        <ul className="year-list">
-          <li><strong>Minister of Culture / The Actor / The Man / Viktor</strong> in <em>Catastrophe</em> by Samuel Beckett & Harold Pinter — Sfumato Theatre Laboratory, Sofia</li>
-          <li><strong>Adam</strong> in <em>DNA</em> by Dennis Kelly — Theatre "Osvobozhdenie", Sofia</li>
-        </ul>
-
-        <h3 className="year-heading">2019</h3>
-        <ul className="year-list">
-          <li><strong>Dan Shapiro</strong> in <em>Sexual Perversity in Chicago</em> by David Mamet — NATFA, Sofia</li>
-          <li><strong>Joachim</strong> in <em>Papas in Motion</em> by Ronald Rudoll — NATFA, Sofia</li>
-          <li><strong>Amatsiya / Alberto Pinkus</strong> in <em>Suitcase Packers</em> by Hanoch Levin — NATFA, Sofia</li>
-        </ul>
-
-        <h3 className="year-heading">2018</h3>
-        <ul className="year-list">
-          <li><strong>Impro Theatre</strong> — Hahaha Impro Laboratory, Sofia</li>
+        <ul>
+          <li><strong>The Doctor and the Mailman</strong> in <em>Charlie at the Sea</em> by Slawomir Mrożek — Youth Theatre, Sofia (2024)</li>
+          <li><strong>Chevalier Danceny</strong> in <em>Dangerous Liaisons</em> by Choderlos de Laclos — Youth Theatre, Sofia (2023)</li>
+          <li><strong>Evgeny Konstantinovich Lvov</strong> in <em>Ivanov</em> by Anton Chekhov — Youth Theatre, Sofia (2023)</li>
+          <li><strong>Stefan</strong> in <em>Little Bastards</em> by Bernhard Georg — Youth Theatre, Sofia (2023)</li>
+          <li><strong>Actor</strong> in <em>#anti-sorrow</em> by Stefan Ivanov — Sfumato Theatre Laboratory, Sofia (2023)</li>
+          <li><strong>Actor</strong> in <em>The Night Knights</em> by Yana Borissova — Sofia Live Club, Sofia (2023)</li>
+          <li><strong>Count Paris</strong> in <em>Romeo and Juliet</em> by William Shakespeare — Youth Theatre, Sofia (2023)</li>
+          <li><strong>Andrea Cavalcanti</strong> in <em>The Count of Monte Cristo</em> by Alexandre Dumas (son) — Youth Theatre, Sofia (2023)</li>
+          <li><strong>Minister of Culture / The Actor / The Man / Viktor</strong> in <em>Catastrophe</em> by Samuel Beckett & Harold Pinter — Sfumato Theatre Laboratory, Sofia (2020)</li>
+          <li><strong>Adam</strong> in <em>DNA</em> by Dennis Kelly — Theatre "Osvobozhdenie", Sofia (2020)</li>
+          <li><strong>Dan Shapiro</strong> in <em>Sexual Perversity in Chicago</em> by David Mamet — NATFA, Sofia (2019)</li>
+          <li><strong>Joachim</strong> in <em>Papas in Motion</em> by Ronald Rudoll — NATFA, Sofia (2019)</li>
+          <li><strong>Amatsiya / Alberto Pinkus</strong> in <em>Suitcase Packers</em> by Hanoch Levin — NATFA, Sofia (2019)</li>
+          <li><strong>Impro Theatre</strong> — Hahaha Impro Laboratory, Sofia (2018)</li>
         </ul>
       </section>
 
