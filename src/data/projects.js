@@ -224,6 +224,7 @@ Horváth shows a world where social insecurity shakes the foundations of persona
       { role: 'Poster Design', name: 'Georgi Panchev' }
     ],
     images: [
+      { src: '/images/kazimir-karoline/att.Nm94HlJhe2hfLGzoITWbMzo75on1IEf1LuzcPILO9yM.jpeg', alt: 'Stage design', caption: 'Festive atmosphere contrasts inner turmoil' },
       { src: '/images/kazimir-karoline/IMG_0797.jpeg', alt: 'Production photo', caption: 'Scenes from Oktoberfest' },
       { src: '/images/kazimir-karoline/IMG_0798.jpeg', alt: 'Ensemble work', caption: 'The ensemble in action' },
       { src: '/images/kazimir-karoline/IMG_0801.jpeg', alt: 'Stage moment', caption: 'Exploring love and loss' },
@@ -231,7 +232,6 @@ Horváth shows a world where social insecurity shakes the foundations of persona
       { src: '/images/kazimir-karoline/IMG_0803.jpeg', alt: 'Dramatic moment', caption: 'Emotional intensity' },
       { src: '/images/kazimir-karoline/att.0gfwk8jWQb3uvCFDPmFWnXBXxEUgELV5n_-QDiOV5WU.jpeg', alt: 'Production still', caption: 'The carnival atmosphere' },
       { src: '/images/kazimir-karoline/att.6kIco91gLRRuxLT8tSEBAuq-gvCaJb_pEilMU3ptiWg.jpeg', alt: 'Character interaction', caption: 'Human connections and disconnections' },
-      { src: '/images/kazimir-karoline/att.Nm94HlJhe2hfLGzoITWbMzo75on1IEf1LuzcPILO9yM.jpeg', alt: 'Stage design', caption: 'Festive atmosphere contrasts inner turmoil' },
       { src: '/images/kazimir-karoline/att.tL1hVZdDfHyxhsypFIkbCU9X3oPknFhH5PgUvToBrNY.jpeg', alt: 'Ensemble scene', caption: 'The whirlpool of life' },
       { src: '/images/kazimir-karoline/att.UCazFcjAEd2zoD6c6cbFqWS_2db5QpZqlYV9fcimxUo.jpeg', alt: 'Performance moment', caption: 'Navigating social instability' }
     ]

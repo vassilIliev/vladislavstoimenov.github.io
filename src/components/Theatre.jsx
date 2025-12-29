@@ -22,7 +22,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"Kazimir & Karoline"</div>
               <div className="project-details">NATFA, Sofia, 2025</div>
-              <div className="project-description">{theatreProjects['kazimir-karoline'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -36,7 +35,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"The Tallest Tree on Earth"</div>
               <div className="project-details">Derida Stage, Sofia, 2025</div>
-              <div className="project-description">{theatreProjects['tallest-tree'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -50,7 +48,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"The Bulgarian Model"</div>
               <div className="project-details">Azaryan Theatre, Sofia, 2024</div>
-              <div className="project-description">{theatreProjects['bulgarian-model'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -64,7 +61,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"Bull"</div>
               <div className="project-details">Regional Contemporary Arts Centre "Toplocentrala", Sofia, 2023</div>
-              <div className="project-description">{theatreProjects.bull.shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -78,7 +74,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"Art"</div>
               <div className="project-details">Youth Theatre, Sofia, 2023</div>
-              <div className="project-description">{theatreProjects.art.shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
@@ -92,7 +87,6 @@ function Theatre() {
             <div className="project-content">
               <div className="project-title">"The Festival of Bacchus"</div>
               <div className="project-details">New Theatre "NDK", Sofia, 2022</div>
-              <div className="project-description">{theatreProjects['festival-of-bacchus'].shortDescription}</div>
               <div className="view-more">View Details →</div>
             </div>
           </Link>
