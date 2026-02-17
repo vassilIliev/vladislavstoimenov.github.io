@@ -37,7 +37,7 @@ function Bio() {
       <section className="section">
         <h2>Stage Directing</h2>
         <ul>
-          <li><strong>Kazimir & Karoline</strong> by Ödön von Horváth — NATFA, Sofia (2025)</li>
+          <li><strong>Kasimir & Karoline</strong> by Ödön von Horváth — NATFA, Sofia (2025)</li>
           <li><strong>The Tallest Tree on Earth</strong> by Ivan Vyrypaev — Derida Stage, Sofia (2025)</li>
           <li><strong>The Bulgarian Model</strong> (based on texts by Stanislav Stratiev) — Azaryan Theatre, Sofia (2024)<br />
               <em>(as part of the project "Decay and Resistance" by the Union of Artists in Bulgaria)</em></li>

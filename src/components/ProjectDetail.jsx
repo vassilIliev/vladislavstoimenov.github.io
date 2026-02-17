@@ -81,7 +81,7 @@ function ProjectDetail() {
       <header className="project-header">
         <div className="project-title-section">
           <h1 className="project-title">{project.title}</h1>
-          {project.author && <div className="project-author">by {project.author}</div>}
+          {project.author && <div className="project-author">{project.isBasedOn ? 'based on' : 'by'} {project.author}</div>}
           {project.translation && <div className="project-translation">Translation: {project.translation}</div>}
           {project.project && <div className="project-context">{project.project}</div>}
           <div className="project-meta">
