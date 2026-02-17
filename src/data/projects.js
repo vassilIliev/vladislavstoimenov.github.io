@@ -125,7 +125,8 @@ This production showcases the raw energy and primal emotions associated with the
   'bulgarian-model': {
     id: 'bulgarian-model',
     title: 'The Bulgarian Model',
-    author: 'based on texts by Stanislav Stratiev',
+    author: 'Stanislav Stratiev',
+    isBasedOn: true,
     type: 'directing',
     venue: 'Azaryan Theatre, Sofia',
     year: '2024',
@@ -183,18 +184,19 @@ This challenging work explores themes of dominance, submission, and the masks we
       { src: '/images/bull/VEL_4890.jpg', alt: 'Confrontation scene', caption: 'Raw emotional intensity' }
     ]
   },
-  'kazimir-karoline': {
-    id: 'kazimir-karoline',
-    title: 'Kazimir & Karoline',
+  'kasimir-karoline': {
+    id: 'kasimir-karoline',
+    title: 'Kasimir & Karoline',
     titleBg: 'Казимир & Каролине',
     author: 'Ödön von Horváth',
+    isBasedOn: true,
     type: 'directing',
     venue: 'NATFA, Sofia',
     year: '2025',
     status: 'completed',
     translation: 'Vladko Murdarov',
     shortDescription: 'A poignant exploration of love and social instability set against the backdrop of Oktoberfest.',
-    fullDescription: `"Kazimir & Karoline" is a play by the Austrian playwright Ödön von Horváth – one of the most significant German-language authors who left a profound mark on the development of modern dramaturgy and theatrical heritage. The action unfolds around the festive Oktoberfest in Munich – a place of entertainment and mass pleasures that contrasts with the inner emptiness and loneliness of the characters.
+    fullDescription: `"Kasimir & Karoline" is a play by the Austrian playwright Ödön von Horváth – one of the most significant German-language authors who left a profound mark on the development of modern dramaturgy and theatrical heritage. The action unfolds around the festive Oktoberfest in Munich – a place of entertainment and mass pleasures that contrasts with the inner emptiness and loneliness of the characters.
 
 The play examines the transformations of love under the influence of socio-economic cataclysms, crises in human relationships, and loss of identity. Its motto – "and love never ends" – sets the direction for thinking about social bonds as a sad-joyful carnival of life, an endless whirlpool of instability, failures, and new hopes.
 
