@@ -1,4 +1,50 @@
 export const theatreProjects = {
+  'all-involved': {
+    id: 'all-involved',
+    title: 'Una teràpia integral',
+    titleBg: 'Всички замесени',
+    author: 'Cristina Clemente and Marc Angelat',
+    type: 'directing',
+    venue: 'Theatro, Sofia',
+    year: '2026',
+    status: 'completed',
+    translation: 'Neva Mitcheva (from Catalan)',
+    runtime: '1h 30min',
+    genre: 'Tragicomedy',
+    shortDescription: 'A tragicomedy set in a bakery, where kneading bread becomes a metaphor for human need, belonging, and faith.',
+    fullDescription: `"Una teràpia integral" is a tragicomedy being staged for the first time on the Bulgarian stage. Based on a Catalan text in translation by Neva Mitcheva, the production takes us to a seemingly unexpected place for drama — a bakery.
+
+At the center of the action stands the charismatic and provocative baker Toni Roca, around whom three complete strangers gather. They come to knead bread, but gradually find themselves drawn into a process that goes far beyond the culinary. As the dough rises, fears, desires, and hidden motives begin to surface among them.
+
+Kneading bread becomes an image of the human need for meaning, belonging, and faith — in authority, in method, in the other. Words begin as everyday conversation, but gradually reveal the cracks beneath the surface, until truths come to light.
+
+The finale brings together the illusions and disappointments of the characters, leaving the audience alone with the feeling that nothing happens by chance — even when we believe we are simply making bread.`,
+    cast: [
+      { role: 'Ensemble', actor: 'Silvia Petkova' },
+      { role: 'Ensemble', actor: 'Maya Tinkova' },
+      { role: 'Ensemble', actor: 'Martin Rakov' },
+      { role: 'Ensemble', actor: 'Alexander Evgeniev' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Vladislav Stoimenov' },
+      { role: 'Text', name: 'Cristina Clemente and Marc Angelat' },
+      { role: 'Translation', name: 'Neva Mitcheva' },
+      { role: 'Set Design & Costumes', name: 'Vanina Tsandeva' },
+      { role: 'Composer', name: 'Kalin Nikolov' },
+      { role: 'Producers', name: "Producing House 'Гръм и тряс'" },
+      { role: 'Photographer', name: 'Stefan N. Schterev' }
+    ],
+    images: [
+      { src: '/images/all-involved/IMG_1345.jpeg', alt: 'Production photo', caption: 'Scenes from the bakery' },
+      { src: '/images/all-involved/IMG_1347.jpeg', alt: 'Production photo', caption: 'The ensemble at work' },
+      { src: '/images/all-involved/IMG_1348.jpeg', alt: 'Production photo', caption: 'Kneading bread on stage' },
+      { src: '/images/all-involved/IMG_1614.jpeg', alt: 'Production photo', caption: 'Moments from the performance' },
+      { src: '/images/all-involved/IMG_1618.jpeg', alt: 'Production photo', caption: 'Character interaction' },
+      { src: '/images/all-involved/IMG_1619.jpeg', alt: 'Production photo', caption: 'The world of the bakery' },
+      { src: '/images/all-involved/IMG_1620.jpeg', alt: 'Production photo', caption: 'Dramatic tension' },
+      { src: '/images/all-involved/IMG_1621.jpeg', alt: 'Production photo', caption: 'The tragicomedy unfolds' }
+    ]
+  },
   'art': {
     id: 'art',
     title: 'Art',
