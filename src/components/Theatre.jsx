@@ -21,6 +21,18 @@ function Theatre() {
               <div className="view-more">View Details →</div>
             </div>
           </Link>
+          <Link to="/theatre/red-speedo" className="project-item clickable">
+            {theatreProjects['red-speedo'].images && theatreProjects['red-speedo'].images[0] && (
+              <div className="project-image">
+                <img src={theatreProjects['red-speedo'].images[0].src} alt={theatreProjects['red-speedo'].images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"Red Speedo"</div>
+              <div className="project-details">Theatro, Sofia, 2026</div>
+              <div className="view-more">View Details →</div>
+            </div>
+          </Link>
           <Link to="/theatre/kasimir-karoline" className="project-item clickable">
             {theatreProjects['kasimir-karoline'].images && theatreProjects['kasimir-karoline'].images[0] && (
               <div className="project-image">

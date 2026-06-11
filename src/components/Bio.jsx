@@ -38,6 +38,7 @@ function Bio() {
         <h2>Stage Directing</h2>
         <ul>
           <li><strong>Una teràpia integral</strong> by Cristina Clemente and Marc Angelat — Theatro, Sofia (2026)</li>
+          <li><strong>Red Speedo</strong> by Lucas Hnath — Theatro, Sofia (2026)</li>
           <li><strong>Kasimir & Karoline</strong> based on Ödön von Horváth — NATFA, Sofia (2025)</li>
           <li><strong>The Tallest Tree on Earth</strong> by Ivan Vyrypaev — Derida Stage, Sofia (2025)</li>
           <li><strong>The Bulgarian Model</strong> (based on texts by Stanislav Stratiev) — Azaryan Theatre, Sofia (2024)<br />

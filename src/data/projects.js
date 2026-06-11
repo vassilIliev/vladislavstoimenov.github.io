@@ -45,6 +45,55 @@ The finale brings together the illusions and disappointments of the characters, 
       { src: '/images/all-involved/IMG_1621.jpeg', alt: 'Production photo', caption: 'The tragicomedy unfolds' }
     ]
   },
+  'red-speedo': {
+    id: 'red-speedo',
+    title: 'Red Speedo',
+    author: 'Lucas Hnath',
+    type: 'directing',
+    venue: 'Theatro, Sofia',
+    year: '2026',
+    status: 'completed',
+    translation: 'Radoslav Petkashev',
+    shortDescription: 'A contemporary drama about the pursuit of success at any cost and the price of defining oneself through achievement.',
+    fullDescription: `"Red Speedo" by American playwright Lucas Hnath explores an important and highly relevant theme of our contemporary world — the pursuit of success at any cost. How far is a person willing to go in the name of the unconditional desire to be first? To what extent do the need for victory and the desire for social prestige shape our actions?
+
+But what gives rise to this necessity? Where does this relentless urge to prove to the world that you are the best come from? Perhaps it stems from the fact that, in today's society of overconsumption, consumerist attitudes, and blurred values, people increasingly define themselves through the prism of their achievements and the scale of their success. And if they fail to reach the ultimate goal of being first, does that mean they are deprived of value, of their very identity?
+
+Today, more and more often, the individual is perceived as a product that must constantly perform, transformed into an instrument of others' expectations — expected to create more and more, to accumulate prestige and success. These have become conditions for the recognition of one's qualities and merits, of one's human worth.
+
+Defining oneself solely through achievements and success is one of the most pressing problems of our time. This inspires our interest in examining how social prestige can turn into an existential necessity and a personal tragedy. For is a person ready to risk everything in the name of unconditional social success, and are they capable of bearing the consequences of such a choice?`,
+    cast: [
+      { role: 'Ensemble', actor: 'Kalin Pacheruzki' },
+      { role: 'Ensemble', actor: 'Neno Koynarski' },
+      { role: 'Ensemble', actor: 'Vanessa Peyankova' },
+      { role: 'Ensemble', actor: 'Nikola Oreshkov' }
+    ],
+    crew: [
+      { role: 'Director', name: 'Vladislav Stoimenov' },
+      { role: 'Translation', name: 'Radoslav Petkashev' },
+      { role: 'Stage Design & Costumes', name: 'Maria Koleva' },
+      { role: 'Composer', name: 'Kalin Nikolov' },
+      { role: 'Choreography', name: 'Alexander Mandzhukov' },
+      { role: 'Photographers', name: 'Borislav Vasilev and Zachary Minchev' }
+    ],
+    images: [
+      { src: '/images/red-speedo/red-speedo-03.jpeg', alt: 'Production photo', caption: 'Moments from the performance' },
+      { src: '/images/red-speedo/red-speedo-01.jpeg', alt: 'Production photo', caption: 'Scenes from Red Speedo' },
+      { src: '/images/red-speedo/red-speedo-02.jpeg', alt: 'Production photo', caption: 'The pursuit of success on stage' },
+      { src: '/images/red-speedo/red-speedo-04.jpeg', alt: 'Production photo', caption: 'Character interaction' },
+      { src: '/images/red-speedo/red-speedo-05.jpeg', alt: 'Production photo', caption: 'The world of competitive ambition' },
+      { src: '/images/red-speedo/red-speedo-06.jpeg', alt: 'Production photo', caption: 'Dramatic tension' },
+      { src: '/images/red-speedo/red-speedo-07.jpeg', alt: 'Production photo', caption: 'The ensemble in action' },
+      { src: '/images/red-speedo/red-speedo-08.jpeg', alt: 'Production photo', caption: 'Performance still' },
+      { src: '/images/red-speedo/red-speedo-09.jpeg', alt: 'Production photo', caption: 'On stage at Theatro' },
+      { src: '/images/red-speedo/red-speedo-10.jpeg', alt: 'Production photo', caption: 'Exploring social prestige' },
+      { src: '/images/red-speedo/red-speedo-11.jpeg', alt: 'Production photo', caption: 'The cost of victory' },
+      { src: '/images/red-speedo/red-speedo-12.jpeg', alt: 'Production photo', caption: 'Production photo' },
+      { src: '/images/red-speedo/red-speedo-13.jpeg', alt: 'Production photo', caption: 'Production photo' },
+      { src: '/images/red-speedo/red-speedo-14.jpeg', alt: 'Production photo', caption: 'Production photo' },
+      { src: '/images/red-speedo/red-speedo-15.jpeg', alt: 'Production photo', caption: 'Production photo' }
+    ]
+  },
   'art': {
     id: 'art',
     title: 'Art',
