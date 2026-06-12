@@ -78,7 +78,6 @@ These questions are at the core of my interest in staging "Red Speedo". The play
     ],
     images: [
       { src: '/images/red-speedo/red-speedo-03.jpeg', alt: 'Production photo', caption: 'Moments from the performance' },
-      { src: '/images/red-speedo/red-speedo-01.jpeg', alt: 'Production photo', caption: 'Scenes from Red Speedo' },
       { src: '/images/red-speedo/red-speedo-02.jpeg', alt: 'Production photo', caption: 'The pursuit of success on stage' },
       { src: '/images/red-speedo/red-speedo-04.jpeg', alt: 'Production photo', caption: 'Character interaction' },
       { src: '/images/red-speedo/red-speedo-05.jpeg', alt: 'Production photo', caption: 'The world of competitive ambition' },
@@ -90,7 +89,7 @@ These questions are at the core of my interest in staging "Red Speedo". The play
       { src: '/images/red-speedo/red-speedo-11.jpeg', alt: 'Production photo', caption: 'The cost of victory' },
       { src: '/images/red-speedo/red-speedo-12.jpeg', alt: 'Production photo', caption: 'Production photo' },
       { src: '/images/red-speedo/red-speedo-13.jpeg', alt: 'Production photo', caption: 'Production photo' },
-      { src: '/images/red-speedo/red-speedo-14.jpeg', alt: 'Production photo', caption: 'Production photo' }
+      { src: '/images/red-speedo/red-speedo-15.jpeg', alt: 'Production photo', caption: 'Production photo' }
     ]
   },
   'art': {
