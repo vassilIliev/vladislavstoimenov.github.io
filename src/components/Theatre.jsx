@@ -9,18 +9,6 @@ function Theatre() {
         <h2>Stage Directing</h2>
         <div className="projects-grid">
           {/* Projects ordered by year - newest first */}
-          <Link to="/theatre/all-involved" className="project-item clickable">
-            {theatreProjects['all-involved'].images && theatreProjects['all-involved'].images[0] && (
-              <div className="project-image">
-                <img src={theatreProjects['all-involved'].images[0].src} alt={theatreProjects['all-involved'].images[0].alt} />
-              </div>
-            )}
-            <div className="project-content">
-              <div className="project-title">"Una teràpia integral"</div>
-              <div className="project-details">Theatro, Sofia, 2026</div>
-              <div className="view-more">View Details →</div>
-            </div>
-          </Link>
           <Link to="/theatre/red-speedo" className="project-item clickable">
             {theatreProjects['red-speedo'].images && theatreProjects['red-speedo'].images[0] && (
               <div className="project-image">
@@ -29,6 +17,18 @@ function Theatre() {
             )}
             <div className="project-content">
               <div className="project-title">"Red Speedo"</div>
+              <div className="project-details">Drama and Puppet Theatre "Vasil Drumev", Shumen, 2026</div>
+              <div className="view-more">View Details →</div>
+            </div>
+          </Link>
+          <Link to="/theatre/all-involved" className="project-item clickable">
+            {theatreProjects['all-involved'].images && theatreProjects['all-involved'].images[0] && (
+              <div className="project-image">
+                <img src={theatreProjects['all-involved'].images[0].src} alt={theatreProjects['all-involved'].images[0].alt} />
+              </div>
+            )}
+            <div className="project-content">
+              <div className="project-title">"Una teràpia integral"</div>
               <div className="project-details">Theatro, Sofia, 2026</div>
               <div className="view-more">View Details →</div>
             </div>
