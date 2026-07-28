@@ -47,7 +47,7 @@ function Bio() {
           <li><strong>Art</strong> by Yasmina Reza — Youth Theatre "Nikolay Binev", Sofia (2023)</li>
           <li><strong>The Festival of Bacchus</strong> by Arthur Schnitzler — New Theatre "NDK", Sofia (2022)</li>
           <li><strong>Twenty-seven Wagons Full of Cotton</strong> by Tennessee Williams — NATFA, Sofia (2021)</li>
-          <li><strong>An Enemy of the People</strong> by Henrik Ibsen — NATFA, Sofia (2020)</li>
+          <li><strong>Fragment from An Enemy of the People</strong> by Henrik Ibsen — NATFA, Sofia (2020)</li>
         </ul>
       </section>
 
@@ -84,9 +84,10 @@ function Bio() {
       <section className="section">
         <h2>International Participation & Festivals</h2>
         <ul>
+          <li><strong>Kasimir & Karoline</strong> — Student Theatre Festival "Scene at the Edge of the City", Haskovo (2026)</li>
           <li><strong>The Tallest Tree on Earth</strong> — International Theatre Festival "Class", Pleven (2025)</li>
           <li><strong>HOMUNCULUS</strong> (written) — scenic reading at "South-East Revisited Festival", Oberhausen, Germany (2025)</li>
-          <li><strong>Workshop:</strong> "Every Adaptation Is a New Beginning" on The Magic Mountain by Thomas Mann — Deutsches Theater, Berlin (2024)</li>
+          <li><strong>Workshop:</strong> "Every Adaptation Is a New Beginning" based on The Magic Mountain by Thomas Mann — Deutsches Theater, Berlin (2024)</li>
           <li><strong>Dangerous Liaisons</strong> — Apollonia Festival of Arts, Sozopol (2024); Theatre at Crossroads Festival, Plovdiv (2023)</li>
           <li><strong>Art</strong> —<br />
               "VIA Fest – Varna Summer" (2024)<br />

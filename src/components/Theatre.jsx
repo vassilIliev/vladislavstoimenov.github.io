@@ -116,7 +116,7 @@ function Theatre() {
             <div className="project-details">NATFA, Sofia, 2021</div>
           </div>
           <div className="project-item">
-            <div className="project-title">"An Enemy of the People"</div>
+            <div className="project-title">Fragment from "An Enemy of the People"</div>
             <div className="project-details">NATFA, Sofia, 2020</div>
           </div>
         </div>
